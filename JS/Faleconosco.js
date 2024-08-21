@@ -16,7 +16,7 @@ function enviarEmail(event) {
     };
 
     // Envio do email usando o serviço EmailJS
-    emailjs.send('service_b3089gcs','template_cps8ptn', params)
+    emailjs.send('service_f9f89hw','template_8zvb0kc', params)
         .then(function(response) {
             console.log('Email enviado com sucesso!', response);
             alert('Formulário enviado com sucesso!');
